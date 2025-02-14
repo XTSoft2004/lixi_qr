@@ -18,7 +18,7 @@ export async function POST(request: Request) {
         message: "Amount range must be between 10 and 500",
       });
     }
-    const created = await fetch(`${process.env.NEXT_PUBLIC_API ?? ""}/room`, {
+    const created = await fetch(`${process.env.NEXT_PUBLIC_API ?? ""}/room123`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
